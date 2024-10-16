@@ -37,7 +37,7 @@ pip install -r requirements.txt
    ```bash
    python main.py
 
-## Creating an Executable (.exe) with PyInstaller
+## Creating an Executable (.exe) with PyInstaller (optional)
 To create an executable version of this program using PyInstaller, follow these steps:
 
 Install PyInstaller:
