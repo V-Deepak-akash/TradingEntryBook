@@ -22,3 +22,8 @@ This application helps traders maintain their portfolio, track deposits, stock a
 1. Clone the repository:
    ```bash
    git clone https://github.com/V-Deepak-akash/TradingEntryBook.git
+2. Install the required packages:
+   pip install -r requirements.txt
+3. Run the program:
+   python main.py
+
