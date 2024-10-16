@@ -1,31 +1,51 @@
 # Trading Entry Book
 
-This application helps traders maintain their portfolio, track deposits, stock and option trades, and analyze portfolio performance in real-time.
+This Python application is a trading entry book designed to manage stock and option entries, deposits, and real-time portfolio tracking. It features a Tkinter-based GUI and supports graphical analysis of portfolio performance.
 
 ## Features
-- Real-time data update for stock/option and deposit entries
-- Analytical tools such as portfolio performance graphs and analysis
-- Intuitive UI built with Tkinter
-- Data saved in a SQLite database
-- Graphical representations of deposits and portfolio performance
-- Export data to Excel
+- Add, delete, and update deposits.
+- Manage stock and option entries.
+- Real-time updates of portfolio performance.
+- Analyze portfolio performance with graphs.
+- Export data to Excel.
+- User-friendly interface for managing trading details.
 
-## Setup
-
-### Prerequisites
+## Requirements
+To run this project, you need:
 - Python 3.x
-- Tkinter (for GUI)
-- Matplotlib (for graph plotting)
-- SQLite3 (for database)
+- Tkinter
+- SQLite3
+- Matplotlib
+- Openpyxl (for handling Excel files)
 
-### Installation
+You can install the required libraries using:
+```bash
+pip install -r requirements.txt
+```
+
+## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/V-Deepak-akash/TradingEntryBook.git
-2. Install the required packages:
+   git clone https://github.com/V-Deepak-akash/TradingEntryBook
+2. Navigate to the project directory:
+   ```bash
+   cd trading-entry-book
+3. Install the dependencies:
    ```bash
    pip install -r requirements.txt
-4. Run the program:
+4. Run the application:
    ```bash
    python main.py
+
+## How to Use
+1. Launch the application.
+2. Add clients and deposit entries.
+3. Add stock/option trades.
+4. Analyze portfolio performance and view real-time updates.
+
+## Contribution
+If you would like to contribute to this project, please fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
