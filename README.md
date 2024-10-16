@@ -37,6 +37,20 @@ pip install -r requirements.txt
    ```bash
    python main.py
 
+## Creating an Executable (.exe) with PyInstaller
+To create an executable version of this program using PyInstaller, follow these steps:
+
+Install PyInstaller:
+```bash
+pip install pyinstaller
+```
+Run the following command to create an executable file:
+```bash
+pyinstaller --onefile --windowed main.py
+```
+This will generate an executable file in the dist folder, which can be shared and run without needing Python installed.
+Requirements
+
 ## How to Use
 1. Launch the application.
 2. Add clients and deposit entries.
